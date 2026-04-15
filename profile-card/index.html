@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <article data-testid="test-profile-card" class="profile-card">
+            
+            <figure class="profile-avatar-container">
+                <img 
+                    data-testid="test-user-avatar"
+                    src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&q=80&w=400&h=400"
+                    alt="Portrait of Jane Doe"
+                    class="profile-avatar"
+                />
+                <div class="upload-container">
+                    <label for="avatar-upload" class="upload-label" tabindex="0" role="button" aria-controls="avatar-upload">Change Avatar</label>
+                    <input type="file" id="avatar-upload" accept="image/*" class="visually-hidden">
+                </div>
+            </figure>
+
+            <div class="profile-content">
+                <header class="profile-header">
+                    <h2 data-testid="test-user-name" class="profile-name">Jane Doe</h2>
+                    <p data-testid="test-user-bio" class="profile-bio">Frontend Developer specializing in accessible UI and performant web applications. Passionate about building minimal and scalable interfaces.</p>
+                </header>
+
+                <div class="profile-time-ticker">
+                    <span>System Time (ms): </span>
+                    <span data-testid="test-user-time" aria-live="polite" class="time-display"></span>
+                </div>
+
+                <div class="profile-details">
+                    <section class="hobbies-section">
+                        <h3>Hobbies</h3>
+                        <ul data-testid="test-user-hobbies" class="tag-list">
+                            <li>Reading</li>
+                            <li>Cycling</li>
+                            <li>Photography</li>
+                        </ul>
+                    </section>
+
+                    <section class="dislikes-section">
+                        <h3>Dislikes</h3>
+                        <ul data-testid="test-user-dislikes" class="tag-list">
+                            <li>Slow internet</li>
+                            <li>Unorganized code</li>
+                        </ul>
+                    </section>
+                </div>
+
+                <nav data-testid="test-user-social-links" class="profile-social">
+                    <ul>
+                        <li>
+                            <a data-testid="test-user-social-twitter" href="https://twitter.com/janedoe" target="_blank" rel="noopener noreferrer">Twitter</a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/janedoe" target="_blank" rel="noopener noreferrer">GitHub</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            
+        </article>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
