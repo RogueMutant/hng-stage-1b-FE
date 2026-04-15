@@ -1,6 +1,6 @@
-# HNG Stage 1: Testable Profile Card
+# HNG Stage 1a: Testable Profile Card
 
-A fully functional, accessible, and responsive Profile Card component built for HNG Stage 1. This project demonstrates clean, minimal, testable, and production-grade implementation of web fundamentals.
+A fully functional, accessible, and responsive Profile Card component built for HNG Stage 1a. This project demonstrates clean, minimal, testable, and production-grade implementation of web fundamentals.
 
 ## Live Demo
 
