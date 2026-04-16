@@ -1,4 +1,4 @@
-# HNG Stage 1b: Testable Profile Card
+# HNG Stage 1B: Testable Profile Card
 
 A fully functional, accessible, and responsive Profile Card component built for HNG Stage 1b. This project demonstrates clean, minimal, testable, and production-grade implementation of web fundamentals.
 
@@ -26,8 +26,7 @@ Simply clone this repository and open `profile-card/index.html` in your web brow
 ## Project Structure
 
 ```text
-hng-stage-1-FE/
-└── profile-card/
+hng-stage-1b-FE
     ├── index.html   # Main Semantic HTML Layout
     ├── styles.css   # Responsive layout rules & aesthetic system design
     └── script.js    # Time logic handler and ObjectURL avatar uploads
